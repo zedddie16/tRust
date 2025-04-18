@@ -1,4 +1,5 @@
 mod app;
+mod ui;
 use app::App;
 use ratatui::Terminal;
 use ratatui::crossterm::event;
@@ -12,6 +13,7 @@ use ratatui::prelude::Backend;
 use ratatui::prelude::CrosstermBackend;
 use std::error::Error;
 use std::io;
+use ui::ui;
 
 use crate::app::{CurrentScreen, CurrentlyEditing};
 

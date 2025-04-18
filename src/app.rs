@@ -35,9 +35,6 @@ impl App {
             match edit_mode {
                 CurrentlyEditing::Key => self.currently_editing = Some(CurrentlyEditing::Value),
                 CurrentlyEditing::Value => self.currently_editing = Some(CurrentlyEditing::Key),
-                CurrentlyEditing::Domen => todo!(),
-                CurrentlyEditing::Login => todo!(),
-                CurrentlyEditing::Password => todo!(),
             };
         } else {
             self.currently_editing = Some(CurrentlyEditing::Key);
