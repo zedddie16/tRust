@@ -8,9 +8,6 @@ pub enum CurrentScreen {
 }
 
 pub enum CurrentlyEditing {
-    Domen,
-    Login,
-    Password,
     Key,
     Value,
 }
